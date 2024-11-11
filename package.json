@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
-    "dist" :"npx tsc",
+    "dist": "npx tsc",
     "dev": "nodemon src/server.ts ",
     "start": "node dist/server.js",
     "prepare": "husky"
@@ -13,6 +13,8 @@
   "author": "A R",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@types/node": "^22.9.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
